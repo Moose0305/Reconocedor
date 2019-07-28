@@ -1,62 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="es">
+<head >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reconocedor</title>
     <link rel="stylesheet" href="./styles.css" type="text/css">
 </head>
-<body>
+<body bgcolor=lime>
     <div class="contenedor">
         <header class="contenedor">
-            <h1>Identificador</h1>
-                <div class="contenedor3">
-                    <p>Id</p>
-                </div>
-                <div class="contenedor3">
-                    <p>Numero</p>
-                </div>
-                <div class= "contenedor3">
-                    <p>Simbolo</p>
-                </div>
-                <div class="contenedor3">
-                    <p>Error</p>
-                </div>
-
+            <h1  align="center">IDENTIFICADOR</h1>
+            
         </header>
 
         <section >
-            <article class="contenedor">
-                <h2>Ingrese caracteres</h2>
-                <div class="contenedor2">
+            <article align="center" class="contenedor">
+                <h4 align="center">Ingrese caracteres</h4>
+                    <div align="right" class="contenedor4">
                     
-                    <input type="text" id="tex1">
-                </div>
+                         <input type="text" id="tex1">
+                    </div>
             
-                <div class="contenedor2">                
+                <div align="left" class="contenedor4">                
                     <button onclick="funcion1()">verificar</button>
 
                 </div>
             </article>
+
             <article class="contenedor">
-                <h3>Palabras verificadas</h3>
+                <h3 align="center">Palabras verificadas</h3>
                 
-                    <div id="Palabras verificadas" class="contenedor2">
+                    <div  class="contenedor3">
                         
-                    </div>
+                            <h3 align="center" >Id</h3>
+                                 <div id="ID" class="TipoCadena">
 
-                    <div id="TipoCadena" class="TipoCadena contenedor2">
-                        
+                                 </div>
+                            
                     </div>
+                
+                    <div class="contenedor3" >
+                                <h3 align="center">Numero</h3>
+                                    <div id="Numero" class="TipoCadena">
 
-                    <div class="TipoCadena">
-                        
+                                    </div>
                     </div>
               
+                    <div class= "contenedor3">
+                                <h3 align="center">Simbolo</h3>
+                                    <div id="Simbolo" class="TipoCadena">
+
+                                    </div>         
+                    </div>
+
+                        
+                    <div class="contenedor3">
+                                <h3 align="center">Error</h3>
+                                    <div id="Error" class="Reconocedor">
+
+                                    </div>
+                    </div>
             </article>
         </section>
-
     </div>
     <script type="text/javascript" src="./script.js"></script>    
 </body>
