@@ -1,6 +1,6 @@
 
 function funcion1(){
-    
+    //a
 var texto = document.getElementById("tex1");   
 var reconocedorNum=0;  
 var reconocedorLet1=0;
